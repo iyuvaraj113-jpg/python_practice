@@ -1,5 +1,5 @@
-name = input("Enter your name :")
-while name == "":
-    print("you did not enter your name")
-    name = input("Enter your name :")
-print(F"hello {name}")
+food = input("Enter a food you like (y to quit)")
+while not food == "y":
+    print(f"you like {food}")
+    food = input("Enter another food you like (y to quit)")
+print("bye")
