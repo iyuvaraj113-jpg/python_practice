@@ -1,5 +1,8 @@
-def dispaly_invoice(username, amount, due_date):
-    print(f"hello{username}")
-    print(f"your bill of ${amount:.2f} is due :{due_date}")
+def create_name(first,last):
+    first = first.capitalize()
+    last = last.capitalize()
+    return first + " " + last
 
-dispaly_invoice("yuvaraj", 100.01, "01/02")
+full_name = create_name("yuva", "raj")
+
+print(full_name)
